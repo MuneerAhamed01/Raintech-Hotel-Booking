@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
+  syncfusion_flutter_datepicker: ^34.2.8
 
 dev_dependencies:
   flutter_test:

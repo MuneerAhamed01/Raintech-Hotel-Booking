@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'features/booking/presentation/theme/booking_colors.dart';
 import 'features/booking/presentation/view/booking_page.dart';
 
 void main() {
@@ -11,8 +12,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: BookingPage(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: BookingColors.theme(),
+      home: const BookingPage(),
     );
   }
 }
