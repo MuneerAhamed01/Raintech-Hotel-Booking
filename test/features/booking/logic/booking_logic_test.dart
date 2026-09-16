@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:rain_tech/features/booking/data/models/room.dart';
 import 'package:rain_tech/features/booking/data/rooms_data.dart';
-import 'package:rain_tech/features/booking/logic/booking_rules.dart';
-import 'package:rain_tech/features/booking/logic/room_availability.dart';
-import 'package:rain_tech/features/booking/logic/stay_dates.dart';
+import 'package:rain_tech/features/booking/booking_logic/booking_rules.dart';
+import 'package:rain_tech/features/booking/booking_logic/room_availability.dart';
+import 'package:rain_tech/features/booking/booking_logic/stay_dates.dart';
 import 'package:rain_tech/features/booking/presentation/widgets/hotel_calendar/hotel_calendar.dart';
 import 'package:rain_tech/features/booking/presentation/cubit/booking_cubit.dart';
 

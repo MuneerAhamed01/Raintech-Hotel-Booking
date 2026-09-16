@@ -1,5 +1,5 @@
 import '../../data/models/room.dart';
-import '../../logic/stay_dates.dart';
+import '../../booking_logic/stay_dates.dart';
 
 class BookingState {
   const BookingState({

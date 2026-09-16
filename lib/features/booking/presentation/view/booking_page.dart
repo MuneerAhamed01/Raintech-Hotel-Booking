@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../data/models/room.dart';
-import '../../logic/stay_dates.dart';
+import '../../booking_logic/stay_dates.dart';
 import '../cubit/booking_cubit.dart';
 import '../cubit/booking_state.dart';
 import '../theme/booking_colors.dart';
