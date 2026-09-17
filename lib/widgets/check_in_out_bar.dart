@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../booking_logic/stay_dates.dart';
+import '../features/booking/booking_logic/stay_dates.dart';
 import '../theme/booking_colors.dart';
 import 'stay_date_format.dart';
 

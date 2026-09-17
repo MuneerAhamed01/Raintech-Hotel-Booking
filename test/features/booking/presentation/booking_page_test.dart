@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:rain_tech/features/booking/data/models/room.dart';
 import 'package:rain_tech/features/booking/booking_logic/stay_dates.dart';
-import 'package:rain_tech/features/booking/presentation/theme/booking_colors.dart';
+import 'package:rain_tech/theme/booking_colors.dart';
 import 'package:rain_tech/features/booking/presentation/view/booking_page.dart';
-import 'package:rain_tech/features/booking/presentation/widgets/hotel_date_picker.dart';
+import 'package:rain_tech/widgets/hotel_date_picker.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
 void main() {

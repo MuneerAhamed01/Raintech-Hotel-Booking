@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../data/models/room.dart';
-import '../../booking_logic/booking_rules.dart';
-import '../../booking_logic/room_availability.dart';
-import '../../booking_logic/stay_dates.dart';
+import '../features/booking/data/models/room.dart';
+import '../features/booking/booking_logic/booking_rules.dart';
+import '../features/booking/booking_logic/room_availability.dart';
+import '../features/booking/booking_logic/stay_dates.dart';
 import '../theme/booking_colors.dart';
 import 'hotel_calendar/hotel_calendar.dart';
 import 'stay_date_format.dart';

@@ -1,5 +1,5 @@
-import '../presentation/widgets/hotel_calendar/utils/calendar_availability.dart';
-import '../presentation/widgets/hotel_calendar/utils/date_only.dart';
+import '../../../widgets/hotel_calendar/utils/calendar_availability.dart';
+import '../../../widgets/hotel_calendar/utils/date_only.dart';
 
 /// Booking stay constraints, backed by the shared calendar widget rules.
 abstract final class BookingRules {

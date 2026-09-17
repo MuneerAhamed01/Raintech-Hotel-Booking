@@ -1,4 +1,4 @@
-import '../presentation/widgets/hotel_calendar/utils/date_only.dart';
+import '../../../widgets/hotel_calendar/utils/date_only.dart';
 import 'models/room.dart';
 
 /// Demo inventory. Unavailable nights are offsets from [today] so the

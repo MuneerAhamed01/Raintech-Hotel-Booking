@@ -5,10 +5,10 @@ import '../../data/models/room.dart';
 import '../../booking_logic/stay_dates.dart';
 import '../cubit/booking_cubit.dart';
 import '../cubit/booking_state.dart';
-import '../theme/booking_colors.dart';
-import '../widgets/check_in_out_bar.dart';
-import '../widgets/hotel_date_picker.dart';
-import '../widgets/stay_date_format.dart';
+import '../../../../theme/booking_colors.dart';
+import '../../../../widgets/check_in_out_bar.dart';
+import '../../../../widgets/hotel_date_picker.dart';
+import '../../../../widgets/stay_date_format.dart';
 
 class BookingPage extends StatelessWidget {
   const BookingPage({super.key, this.now});

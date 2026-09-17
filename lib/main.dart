@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'features/booking/presentation/theme/booking_colors.dart';
+import 'theme/booking_colors.dart';
 import 'features/booking/presentation/view/booking_page.dart';
 
 void main() {
